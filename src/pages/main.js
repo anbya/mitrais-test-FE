@@ -49,7 +49,7 @@ class mainpage extends Component {
         gender: this.state.gender,
         email: this.state.email
     };
-    axios.post(`http://localhost:3009/register`, dataTosend, {
+    axios.post(`https://anbyaapi.jaygeegroupapp.com/register`, dataTosend, {
       headers: {
         "Access-Control-Allow-Origin": "*"
       }
